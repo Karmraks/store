@@ -8,8 +8,8 @@ namespace Store.Memory
         private readonly Book[] book = new[]
         {
             new Book(1, "Art of Programming"),
-            new Book(1, "Refactoring"),
-            new Book(1, "C Programming Language")
+            new Book(2, "Refactoring"),
+            new Book(3, "C Programming Language")
         };
 
         public Book[] GetAllByTitle(string titlePart)
